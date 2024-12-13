@@ -1,0 +1,188 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a; /* Черный фон */
+    color: #eaeaea; /* Светлый цвет текста */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Hero (Приветствие) */
+#hero {
+    background-color: #ff66b2; /* Розовый */
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+}
+
+#hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #ff66b2;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #f3f3f3;
+}
+
+/* О нас */
+#about {
+    background-color: #2a2a2a;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Услуги */
+#services {
+    background-color: #1a1a1a;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-item {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ff66b2;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: #eaeaea;
+}
+
+/* Отзывы */
+#reviews {
+    background-color: #2a2a2a;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#reviews h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#reviews .reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review {
+    max-width: 400px;
+    margin: 20px;
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.review span {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ff66b2;
+}
+
+/* Контакты */
+#contacts {
+    background-color: #1a1a1a;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contacts a {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Адреса */
+#addresses {
+    background-color: #2a2a2a;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#addresses ul {
+    list-style-type: none;
+}
+
+#addresses ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #eaeaea;
+}
+
+/* Подвал */
+footer {
+    background-color: #1a1a1a;
+    color: #eaeaea;
+    padding: 20px 0;
+    text-align: center;
+}
